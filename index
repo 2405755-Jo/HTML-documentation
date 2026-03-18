@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML TAGS</title>
+</head>
+
+<body>
+
+    <h1>HTML Tags</h1>
+
+    <p>
+        <a href="https://www.html.com">HTML tags</a>
+    </p>
+
+    <h2>Anchor Tag (a)</h2>
+
+    <p>
+        The <b>a</b> tag is used to create hyperlinks that connect a web page to another section on the same webpage,
+        another webpage, or allow a user to upload or download a file.
+    </p>
+
+    <p>
+        The <b>a</b> tag uses the <b>href</b> attribute to specify the destination that the user will be taken to when the link is clicked.
+        A hyperlink can be text, an image, or even a video.
+    </p>
+
+    <h4>General Syntax of the Anchor Tag</h4>
+
+    <pre>
+&lt;a href="Destination"&gt;Target Destination&lt;/a&gt;
+    </pre>
+
+    <p>
+        <em><b>Task:</b> Create a link that when clicked will take the user to the HTML documentation for the anchor tag.
+        The link name should be <b>HTML Element</b>.</em>
+    </p>
+
+    <h2>HTML Lists</h2>
+
+    <p>
+        A list is a sequence of items arranged in order. Lists help organize content so that information
+        becomes clearer and easier to read.
+    </p>
+
+    <p>
+        HTML supports three types of lists:
+    </p>
+
+    <ul>
+        <li>Ordered List</li>
+        <li>Unordered List</li>
+        <li>Definition List</li>
+    </ul>
+
+    <h3>Ordered List</h3>
+
+    <p>
+        In an ordered list, the sequence of items is labeled using numbers, letters (A, B, C),
+        or Roman numerals.
+    </p>
+
+    <p><em><b>Task:</b> Create a list of 5 common HTML tags.</em></p>
+
+    <ol type="i">
+        <li>Anchor Tag</li>
+        <li>Form Tag</li>
+        <li>Table Tag</li>
+        <li>Div Tag</li>
+        <li>Image Tag</li>
+    </ol>
+
+    <h3>Unordered List</h3>
+
+    <p>
+        An unordered list uses bullet points to list items.
+    </p>
+
+    <p><em><b>Task:</b> List of my favourite HTML tags.</em></p>
+
+    <ul type="square">
+        <li>Bold Tag</li>
+        <li>Break Tag</li>
+        <li>Table Tag</li>
+        <li>Footer Tag</li>
+        <li>Paragraph Tag</li>
+    </ul>
+
+    <h2>Definition List</h2>
+
+    <p>
+        A definition list is used to define terms and provide their descriptions.
+    </p>
+
+    <p>
+        <em><b>Task:</b> Create a definition list to describe Internet Application Programming.</em>
+    </p>
+
+    <dl>
+
+        <dt><b>Internet Application Programming</b></dt>
+        <dd>
+            The process of developing software applications that run on the internet using web technologies.
+        </dd>
+
+        <dt><b>HTML</b></dt>
+        <dd>
+            A markup language used to structure and organize content on web pages.
+        </dd>
+
+        <dt><b>CSS</b></dt>
+        <dd>
+            A style sheet language used to control the layout and appearance of web pages.
+        </dd>
+
+        <dt><b>JavaScript</b></dt>
+        <dd>
+            A programming language used to add interactivity and dynamic features to websites.
+        </dd>
+
+        <dt><b>Web Server</b></dt>
+        <dd>
+            A system that hosts websites and delivers web pages to users through the internet.
+        </dd>
+
+    </dl>
+
+</body>
+
+<footer>
+    <p><br><em>2405755@students.kcau.ac.ke</em></p>
+</footer>
+
+</html>
